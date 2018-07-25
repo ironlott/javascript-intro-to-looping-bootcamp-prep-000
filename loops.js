@@ -1,4 +1,5 @@
 function forLoop(array){
+<<<<<<< HEAD
   for (let i = 0; i < 25; i++){
     array.push("I am ${i} strange loop${i === 0 ? '' : 's'}.");
   }
@@ -37,3 +38,10 @@ function doWhileLoop(array){
 }
 
 
+=======
+  for (let i = 0; i > 26; i++){
+    array.push("I am ${i} strange loop${i === 0 ? '' : 's'}.");
+  }
+  return array
+}
+>>>>>>> 5bcfc5b5cf86a4ff1e961e3cc63139221a0cc035
